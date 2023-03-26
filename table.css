@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:blanchedalmond;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 6px solid aqua;
+}
+th,td {
+    text-align: center;
+    padding: 12px;
+    border: 3px solid #894747;
+}
+th{
+    color: aliceblue;
+    background-color: cadetblue;
+}

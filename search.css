@@ -1,0 +1,35 @@
+body{
+    font-family: cochin;
+    margin: 0;
+    padding:0;
+    background-color: cornsilk;
+}
+div{
+    background-color:rgb(236, 242, 249);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+img{
+    border-radius: 20px;
+}
+h1,h2,h3{
+    letter-spacing: 3px;
+}
+button{
+    border-radius: 15px;
+    background-color: salmon;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+button:hover{
+    color: aqua;
+    background-color: rgb(41, 39, 39);
+}

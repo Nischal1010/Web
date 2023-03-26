@@ -5,19 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <form>
-        <h1>Fill Up !!!</h1>
-        <label>Username</label>
-        <input type= 'text' placeholder="Name..." required autocomplete="off">
-        <label>Password</label>
-        <input placeholder="Password..." type="password" required autocomplete="off"><br>
-        <label>E-mail</label>
-        <input placeholder="Email" type="text" autocomplete="off"></input><br>
-        <label>Phone</label>
-        <input required placeholder="Number..." type="text" autocomplete="off"><br>
-        <button>Submit</button>
-    </form>
+    <div class="container">
+        <form>
+            <h1>User Registration Page !!!</h1>
+            <label class="lab">Enter Your Full Name:</label><br>
+            <input type='text' placeholder="Name..." required autocomplete="off"><br>
+            <label class="lab">Enter Your Email: </label><br>
+            <input placeholder="Email" type="text" autocomplete="off"></input><br>
+            <label class="lab"> Enter Your Password: </label><br>
+            <input placeholder="Password..." type="password" required autocomplete="off"><br>
+            <label class="lab">Retype Your Password: </label><br>
+            <input placeholder="Password..." type="password" required autocomplete="off"><br>
+            <label class="lab">Select Your Gender:</label><br>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="Other">Other <br>
+            <label class="lab">Enter Your Address:</label><br>
+            <input type='text' placeholder="Address..." required autocomplete="off"><br>
+            <label class="lab">Enter Your Bio</label><br>
+            <textarea placeholder="Enter your bio..." type="text"></textarea><br>
+            <button>Submit</button>
+        </form>
+    </div>
 </body>
 </html>
