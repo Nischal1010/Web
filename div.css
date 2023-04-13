@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::before, *::after{
+    box-sizing: border-box;
+}
+nav{
+    background-color:pink;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(42, 79, 79);
+    font-size: 20px;
+    padding: 15px;
+}
+.container{
+    background-color: beige;
+    height: 500px;
+    width: 100%;
+}
+.container .description, .image{
+    width: 50%;
+    float: left;
+    text-align: justify;
+    font-size: 24px;
+}
+.container .image img{
+    width: 100%;
+    height: 500px;
+
+    
+}
+
+
+@media (max-width:1000px) {
+    
+}
